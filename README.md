@@ -1,6 +1,6 @@
 # STATS-220
 
-##This is my repo for STATS 220. 
+# This is my repo for STATS 220. 
 
 A little about me:
 I am currently a third year student at the University of Auckland
