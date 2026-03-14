@@ -2,7 +2,7 @@
 
 This is my **repo** for STATS 220 at the [University of Auckland](https://www.auckland.ac.nz/)
 
-A little about me:
+## A little about me:
 I am currently a third year student at the University of Auckland
 - I am undertaking a degree in Chemistry and statistics 
 - I am taking STATS 220 because I want to gain some knowledge to code and it really helps me with my future career for both chemistry and statistics pathway and the outline of this course on the University webiste really attracted me due to its knowledge cover. 
