@@ -1,10 +1,10 @@
 # STATS-220
 
-This is my **repo** for STATS 220 at the [University of Auckland](https://www.auckland.ac.nz/)
+This is my repo for STATS 220 at the [University of Auckland](https://www.auckland.ac.nz/)
 
 
 ## A little about me:
-I am currently a third year BSC student at the [University of Auckland](https://www.auckland.ac.nz/)
+I am currently a **third year BSC student** at the [University of Auckland](https://www.auckland.ac.nz/)
 my two majors are: 
 1. chemistry
 2. Statistics
