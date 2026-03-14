@@ -15,15 +15,7 @@ The reason why I want to take STATS 220 this semester is because:
  * analyzying lab results more efficient rather apply formula which will save so much more time!
 
 
-A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
+A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif) and also ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlsZzlqYXI4dGQwMDB3d3Z1dzdjbDUycG90MDRxcWg0bDk5MXo1ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/9ADoZQgs0tyww/giphy.gif)
 
 
-I am taking *STATS 220* because I want to gain coding knowledge. It will really help with my future career pathways, and the outline of this course on the university website really attracted me. 
 
-I am specifically interested in learning the R programming language because it allows me to connect statistical methods to my experimental data. Here are a few things I enjoy exploring:
-* Organic chemistry and spectroscopy (like NMR and IR)
-* Probability theory and Markov chains
-* Analyzing lab results efficiently rather than applying manual formulas!
-
-A meme that captures how I currently feel about my university studies is:
-![Current mood](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlsZzlqYXI4dGQwMDB3d3Z1dzdjbDUycG90MDRxcWg0bDk5MXo1ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/9ADoZQgs0tyww/giphy.gif)
