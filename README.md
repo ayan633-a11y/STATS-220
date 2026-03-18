@@ -15,7 +15,6 @@ The reason why I want to take *STATS 220* this semester is because:
  * analyzying lab results more efficient rather apply formula which will save so much more time!
 
 
-A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif) and also ![]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlsZzlqYXI4dGQwMDB3d3Z1dzdjbDUycG90MDRxcWg0bDk5MXo1ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/9ADoZQgs0tyww/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmdpMmN4a3JiZWQ1eHhpaG42ZXlxNXl3bGl1NnR2amx4NjE0MW5ybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G9wixRsmtsXfO6CHih/giphy.gif))
-
+A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif) and also ![](https://giphy.com/gifs/BearishAF-school-college-learning-G9wixRsmtsXfO6CHih)
 
 
