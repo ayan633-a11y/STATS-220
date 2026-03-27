@@ -1,0 +1,84 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+suppressPackageStartupMessages(library(tidyverse))
+
+csv_file <-"https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
+
+hehe_data <- read_csv(csv_file, show_col_types = FALSE) %>%
+    rename(
+    timestamp = 1,
+    industry = 2,
+    word_count = 3,
+    has_emoji = 4
+  )
+
+
+```{css}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+}
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+
+```
+
+## What's going on with this data?
+
+You need to change the contents of this Rmd! Replace the R code and markdown give below in this template document.
+
+```{r}
+# Calculate summary values using Lab 2A and 2B functions
+total_emails <- nrow(hehe_data)
+avg_word_count <- round(sum(hehe_data$word_count) / length(hehe_data$word_count), 1)
+print(avg_word_count)
+max_words <- max(hehe_data$word_count)
+min_words <- min(hehe_data$word_count)
+print(max_words)
+print(min_words)
+
+paste("Based on the data collected, I have tracked a total of", total_emails, "promotional emails. The average subject line length across all industries is", avg_word_count, "words.")
+
+paste("Based on the data collected, I tracked a total of",
+                          total_emails,
+                          "promotional emails with an average length of",
+                          avg_word_count,
+                          "words.",
+                          "The longest subject line I received contained", 
+                          max_words, 
+                          "words, while the shortest contained only", 
+                          min_words, 
+                          "words.")
+
+
+
+# Chart 1: Horizontal bar chart 
+ggplot(data = hehe_data) +
+  geom_bar(aes(y = industry, fill = industry)) +
+  labs(
+    title = "Promotional Emails by Industry",
+    x = "Number of Emails",
+    y = "Industry Type"
+  )
+
+# Chart 2: Vertical bar chart 
+ggplot(data = hehe_data) +
+  geom_bar(aes(x = has_emoji, fill = has_emoji)) +
+  labs(
+    title = "Emoji Usage in Subject Lines",
+    x = "Contains Emojis?",
+    y = "Number of Emails"
+  )
+
+```
+
