@@ -4,9 +4,10 @@ output: html_fragment
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+suppressPackageStartupMessages(library(tidyverse))
 ```
 ```{r}
-suppressPackageStartupMessages(library(tidyverse))
+
 
 csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?gid=933634465&single=true&output=csv"
 
