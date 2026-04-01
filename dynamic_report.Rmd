@@ -3,20 +3,21 @@ title: My dynamic report
 output: html_fragment
 ---
 ```{r setup, include=FALSE}
-
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
-
-
 ```
-
 ```{r}
-suppressPackageStartupMessages(library(tidyverse))
+library(tidyverse)
 
+csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
+
+latest_data %
+  rename(
+    timestamp = 1,
+    industry = 2,
+    word_count = 3,
+    has_emoji = 4
+  )
 ```
-
-
-
-
 ```{css}
 body {
   font-family: 'Arial', sans-serif;
@@ -33,19 +34,7 @@ h2 {
 ## Tracking Promotional Email Trends
 
 This report tracks promotional emails over time, looking at which industries send the most emails and how often they use emojis in the subject line.
-
 ```{r}
-csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
-
-latest_data <- read_csv(csv_file) %>%
-  rename(
-    timestamp = 1,
-    industry = 2,
-    word_count = 3,
-    has_emoji = 4
-  )
-
-
 total_emails <- nrow(latest_data)
 avg_word_count <- round(sum(latest_data$word_count) / length(latest_data$word_count), 1)
 max_words <- max(latest_data$word_count)
