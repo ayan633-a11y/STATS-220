@@ -7,9 +7,10 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
-
+suppressPackageStartupMessages(library(readr))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
 ```
-
 
 ```{css}
 body {
@@ -37,6 +38,7 @@ latest_data <- read_csv(csv_file) %>%
     word_count = 3,
     has_emoji = 4
   )
+
 
 total_emails <- nrow(latest_data)
 avg_word_count <- round(sum(latest_data$word_count) / length(latest_data$word_count), 1)
