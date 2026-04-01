@@ -31,6 +31,8 @@ h2 {
 ## Tracking Promotional Email Trends
 
 This report tracks promotional emails over time, looking at which industries send the most emails and how often they use emojis in the subject line.
+
+## summary values
 - average word count of subject lines: 8.9
 - maximum word count: 17
 - minimum word count: 3
