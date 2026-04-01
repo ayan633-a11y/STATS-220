@@ -85,15 +85,6 @@ ggplot(data = latest_data) +
 
 ## conclusion
 
-in conclusion, the two bargraphs shows a clear trend with 34 promotional emails where the first graph shosws that the food industtry are having the most tracing emails in this dataset andd
+in conclusion, the two bargraphs shows a clear trend with 34 promotional emails where the first graph shosws that the food industtry are having the most tracing emails suggesting that my email inbox is being targeted mainly by the food and delievery services and there are more emails using emoji to attract reader compare to the ones that don't use emojis we can also conclude marketers are more willing to use emojis to attract reader's attention
 
 
-In conclusion, the two bar graphs visualize clear trends within the 34 tracked emails. The first graph demonstrates that Food/delivery businesses are the most active marketers in this dataset, sending 12 emails—nearly double the next highest category. Furthermore, the second graph's data confirms that emojis are a favored tactic, visually showing that more than half (19) of the collected subject lines contained at least one emoji.
-
-Based on the tracked data, the Food/delivery sector is by far the most frequent sender of promotional emails, accounting for roughly a third of the total inbox volume (12 out of 34 emails). Other notable sources include the "software/tech" and "other" categories, while "Job advertising" and "Clothing/retail" send the fewest messages.
-
-When looking at subject line tactics, there is a clear preference for using emojis to capture attention. Out of the 34 promotional emails analyzed, 19 included an emoji in the subject line compared to only 15 that did not, showing that over half of these marketers use emojis to try and boost engagement.
-
-
-
-Total Sample: Adding up the bars, the dataset consists of 34 total promotional emails.
