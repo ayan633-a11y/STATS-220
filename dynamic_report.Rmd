@@ -75,5 +75,26 @@ ggplot(data = latest_data) +
     y = "Number of Emails"
   )
 ```
+## analysis
 
-lfjaklfioafjf
+
+- Based on the bargraph generated, we can clearly see that the food/delievery category have most promotional emails where it have 12 emails which is rouphly a third of the entire dataset. meanwhile the the software/tech category have 6 emails, the "other" category have 7 emails, "travel" category have 4 emails, Job advertising category have 3 emails and clothing/retail category have the fewest email which only have 2 emails. out of all 34 promotional emails. 
+## analysis on the emoji bargraph
+
+
+- We can also see that from another bargraph generated, there is a evidence that using emojis in the email will captures the reader's attention. Out of 34 promotional emails 19 included an emoji in the subject line to only 15 that did not put an emoji in the subject line, suggesting that over half the emails are trying to use emojis to catch readers attention 
+
+## conclusion
+
+in conclusion, the two bargraphs shows a clear trend with 34 promotional emails where the first graph shosws 
+
+
+In conclusion, the two bar graphs visualize clear trends within the 34 tracked emails. The first graph demonstrates that Food/delivery businesses are the most active marketers in this dataset, sending 12 emails—nearly double the next highest category. Furthermore, the second graph's data confirms that emojis are a favored tactic, visually showing that more than half (19) of the collected subject lines contained at least one emoji.
+
+Based on the tracked data, the Food/delivery sector is by far the most frequent sender of promotional emails, accounting for roughly a third of the total inbox volume (12 out of 34 emails). Other notable sources include the "software/tech" and "other" categories, while "Job advertising" and "Clothing/retail" send the fewest messages.
+
+When looking at subject line tactics, there is a clear preference for using emojis to capture attention. Out of the 34 promotional emails analyzed, 19 included an emoji in the subject line compared to only 15 that did not, showing that over half of these marketers use emojis to try and boost engagement.
+
+
+
+Total Sample: Adding up the bars, the dataset consists of 34 total promotional emails.
