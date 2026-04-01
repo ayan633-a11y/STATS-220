@@ -4,11 +4,9 @@ output: html_fragment
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
-```
-
-```{r setup, include=FALSE}
 suppressPackageStartupMessages(library(tidyverse))
 ```
+
 
 ```{css}
 body {
