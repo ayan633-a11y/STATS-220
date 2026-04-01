@@ -6,9 +6,7 @@ output: html_fragment
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
-```{r}
-suppressPackageStartupMessages(library(tidyverse))
-```
+
 
 
 ```{css}
@@ -29,6 +27,7 @@ h2 {
 This report tracks promotional emails over time, looking at which industries send the most emails and how often they use emojis in the subject line.
 
 ```{r}
+suppressPackageStartupMessages(library(tidyverse))
 csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
 
 latest_data <- read_csv(csv_file) %>%
