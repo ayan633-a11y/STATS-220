@@ -10,7 +10,7 @@ suppressPackageStartupMessages(library(tidyverse))
 
 csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
 
-latest_data <- read_csv(csv_file) %>%
+latest_data <- read_csv(csv_file) 
   rename(
     timestamp = 1,
     industry = 2,
