@@ -6,7 +6,7 @@ output: html_fragment
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
-```{r}
+```{r setup, include=FALSE}
 suppressPackageStartupMessages(library(tidyverse))
 ```
 
