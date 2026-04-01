@@ -16,11 +16,13 @@ library(tidyverse)
 
 
 ```{css}
+/* Style the main body of the website set the font to arial, text color to back, and center align the text and the image */
 body {
   font-family: 'Arial', sans-serif;
   color: #333333;
   text-align: center;
 }
+/* Style the level 2 headings add a blue underline border */
 h2 {
   color: #2c3e50;
   border-bottom: 2px solid #3498db;
@@ -37,8 +39,9 @@ This report tracks promotional emails over time, looking at which industries sen
 - maximum word count: 17
 - minimum word count: 3
 ```{r}
+# URL of the published Google Sheet CSV file and convert it into variables 
 csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
-
+# Read the CSV file from the URL andrename function using the pipe 
 latest_data <- read_csv(csv_file) %>%
   rename(
     timestamp = 1,
@@ -47,10 +50,13 @@ latest_data <- read_csv(csv_file) %>%
     has_emoji = 4
   )
 
-
+# calculate the total number of emails by counting number of rows in the dataset
 total_emails <- nrow(latest_data)
+# calculate the average word count in the subject line 
 avg_word_count <- (sum(latest_data$word_count) / length(latest_data$word_count)) %>% round(1)
+# highest word count in the dataset
 max_words <- max(latest_data$word_count)
+# lowest word count in the dataset 
 min_words <- min(latest_data$word_count)
 
 paste("Based on the data collected, I received a total of",
@@ -63,7 +69,7 @@ paste("Based on the data collected, I received a total of",
       "words, while the shortest contained only",
       min_words,
       "words.")
-
+# generate a bar chart based on industry type by using the dataset 
 ggplot(data = latest_data) +
   geom_bar(aes(y = industry, fill = industry)) +
   labs(
@@ -71,7 +77,7 @@ ggplot(data = latest_data) +
     x = "Number of Emails",
     y = "Industry Type"
   )
-
+# generate a second bar chart based on if the email subject line contains emojis  by using the dataset 
 ggplot(data = latest_data) +
   geom_bar(aes(x = has_emoji, fill = has_emoji)) +
   labs(
@@ -91,5 +97,3 @@ ggplot(data = latest_data) +
 ## conclusion
 
 in conclusion, the two bargraphs shows a clear trend with 34 promotional emails where the first graph shosws that the food industtry are having the most tracing emails suggesting that my email inbox is being targeted mainly by the food and delievery services and there are more emails using emoji to attract reader compare to the ones that don't use emojis we can also conclude marketers are more willing to use emojis to attract reader's attention
-
-
