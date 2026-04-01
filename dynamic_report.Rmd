@@ -44,7 +44,7 @@ avg_word_count <- round(sum(latest_data$word_count) / length(latest_data$word_co
 max_words <- max(latest_data$word_count)
 min_words <- min(latest_data$word_count)
 
-paste("Based on the data collected, I tracked a total of",
+paste("Based on the data collected, I received a total of",
       total_emails,
       "promotional emails with an average length of",
       avg_word_count,
