@@ -31,6 +31,9 @@ h2 {
 ## Tracking Promotional Email Trends
 
 This report tracks promotional emails over time, looking at which industries send the most emails and how often they use emojis in the subject line.
+- average word count of subject lines: 8.9
+- maximum word count: 17
+- minimum word count: 3
 ```{r}
 csv_file <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIZsfs03hwVb60mhPCZ_w4Fm_g9P0vCykAxJ-h9xJyj_RufEF8dXmcLybF2404j7Z2qoGwAVQL8Tpf/pub?output=csv"
 
@@ -44,7 +47,7 @@ latest_data <- read_csv(csv_file) %>%
 
 
 total_emails <- nrow(latest_data)
-avg_word_count <- round(sum(latest_data$word_count) / length(latest_data$word_count), 1)
+avg_word_count <- (sum(latest_data$word_count) / length(latest_data$word_count)) %>% round(1)
 max_words <- max(latest_data$word_count)
 min_words <- min(latest_data$word_count)
 
@@ -71,7 +74,7 @@ ggplot(data = latest_data) +
   geom_bar(aes(x = has_emoji, fill = has_emoji)) +
   labs(
     title = "Emoji Usage in Subject Lines",
-    x = "Contains Emojis?",
+    x = "Contains Emojis",
     y = "Number of Emails"
   )
 ```
