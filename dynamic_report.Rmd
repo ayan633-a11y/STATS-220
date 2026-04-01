@@ -75,8 +75,8 @@ ggplot(data = latest_data) +
     y = "Number of Emails"
   )
 ```
-## analysis
 
+## analysis
 
 - Based on the bargraph generated, we can clearly see that the food/delievery category have most promotional emails where it have 12 emails which is rouphly a third of the entire dataset. meanwhile the the software/tech category have 6 emails, the "other" category have 7 emails, "travel" category have 4 emails, Job advertising category have 3 emails and clothing/retail category have the fewest email which only have 2 emails. out of all 34 promotional emails. 
 ## analysis on the emoji bargraph
@@ -86,7 +86,7 @@ ggplot(data = latest_data) +
 
 ## conclusion
 
-in conclusion, the two bargraphs shows a clear trend with 34 promotional emails where the first graph shosws 
+in conclusion, the two bargraphs shows a clear trend with 34 promotional emails where the first graph shosws that the food industtry are having the most tracing emails in this dataset andd
 
 
 In conclusion, the two bar graphs visualize clear trends within the 34 tracked emails. The first graph demonstrates that Food/delivery businesses are the most active marketers in this dataset, sending 12 emails—nearly double the next highest category. Furthermore, the second graph's data confirms that emojis are a favored tactic, visually showing that more than half (19) of the collected subject lines contained at least one emoji.
